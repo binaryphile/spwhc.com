@@ -1,15 +1,7 @@
-title : Blog Title
-tagline: Blog Tagline
-author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+title: St. Petersburg Woman's Health Center
+author:
+  name: Tampa Bay Abortion Clinics
 
-navigation :
-  - archive
-  - tags
-  - categories
-  - pages
-  - about
+navigation:
+  - index
+
