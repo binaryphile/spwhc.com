@@ -1,6 +1,14 @@
 source "https://rubygems.org"
-gem 'psych', "~> 1.3"
-gem 'ruhoh', "~> 2"
+gem 'ruhoh', github: 'ruhoh/ruhoh.rb'
+gem 'guard', github: 'guard/guard'
+gem 'guard-compass', github: 'guard/guard-compass'
+gem 'rb-inotify', github: 'nex3/rb-inotify', platforms: :ruby, require: false
+gem 'wdm', github: 'Maher4Ever/wdm', platforms: :mingw, require: false
+gem 'guard-livereload', github: 'guard/guard-livereload'
+gem 'rack-livereload', github: 'johnbintz/rack-livereload'
+gem 'zurb-foundation'
+gem 'compass'
+gem 'kramdown', '~> 0.14'
 
 # To enable asset packaging and processing via sprockets:
 #

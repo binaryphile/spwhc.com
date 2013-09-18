@@ -1,1 +1,7 @@
-compiled/*
+compiled/
+.sass-cache/
+foundation/stylesheets/
+.dropbox
+desktop.ini
+*.~1~
+
