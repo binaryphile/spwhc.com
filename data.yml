@@ -2,6 +2,8 @@ title: St. Petersburg Woman's Health Center
 author:
   name: Tampa Bay Abortion Clinics
 
+copyright: "&copy; 2013 Tampa Bay Abortion Clinics"
+
 address:
   street: 3401 66th St N
   city: St. Petersburg
@@ -11,5 +13,5 @@ address:
 phone: (727) 381-6620
 
 navigation:
-  - index
+  - contact
 

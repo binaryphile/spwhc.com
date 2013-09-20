@@ -1,19 +1,17 @@
-<nav class="top-bar">
+<nav class="top-bar no-bottom">
   <ul class="title-area">
     <li class="name"><h1><a href="{{urls.base_path}}">{{data.title}}</a></h1></li>
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
   <div class="top-bar-section">
-    <div class="my-row">
-      <ul>
-        {{# data.navigation?to__root }}
-          {{> pages_list }}
-        {{/ data.navigation?to__root }}
-      </ul>
-    </div>
+    <ul>
+      {{# data.navigation?to__root }}
+        {{> pages_list }}
+      {{/ data.navigation?to__root }}
+    </ul>
     <ul class="right-menu">
       <li><a href="tel:{{data.phone}}">{{data.phone}}</a></li>
-      <li><a href="#address" title="{{#data.address}}{{street}}, {{city}}, {{state}} {{zip}}{{/data.address}}">Address</a>
+      <li><a href="#address" title="{{#data.address}}{{street}}, {{city}}, {{state}} {{zip}}{{/data.address}}">Address</a></li>
     </ul>
   </div>
 </nav>

@@ -9,13 +9,21 @@
 
 {{>nav}}
 
-<section>
+<div class="row sheet">
 
-{{{content}}}
+  {{>header}}
 
-{{>footer}}
+  <div class="large-12 columns">
 
-</section>
+    <section>
+
+    {{{content}}}
+
+    {{>footer}}
+
+    </section>
+  </div>
+</div>
 
 <script>
   document.write('<script src=' +
