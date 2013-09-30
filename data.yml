@@ -1,4 +1,5 @@
 title: St. Petersburg Woman's Health Center
+short-title: St Pete Woman's Health Center
 author:
   name: Tampa Bay Abortion Clinics
 
@@ -13,5 +14,7 @@ address:
 phone: (727) 381-6620
 
 navigation:
-  - contact
+  - abortion-services
+  - birth-control
+  - locations
 

@@ -224,7 +224,7 @@ $default-float: left;
 
 // Style lists
 
-// $list-style-position: outside;
+$list-style-position: inside;
 // $list-side-margin: 0;
 // $list-nested-margin: emCalc(20);
 // $definition-list-header-weight: bold;
@@ -1234,12 +1234,12 @@ $default-float: left;
 
 // Background color for the top bar
 
-/*$topbar-bg: #B7B7B7;*/
+// $topbar-bg: #B7B7B7;
 
 // Height and margin
 
 // $topbar-height: 45px;
-// $topbar-margin-bottom: emCalc(30);
+// $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
 
@@ -1247,8 +1247,8 @@ $default-float: left;
 
 // Controlling the styles for the title in the top bar
 
-// $topbar-title-weight: bold;
-$topbar-title-font-size: emCalc(12);
+// $topbar-title-weight: normal;
+$topbar-title-font-size: emCalc(13);
 
 // Style the top bar dropdown elements
 

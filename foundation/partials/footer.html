@@ -1,11 +1,11 @@
-<div class="row text-center add-bottom">
+<div class="text-center add-bottom">
   <footer>
     <div class="large-12 columns">
       <hr />
     </div>
     <ul class="small-block-grid-1 large-block-grid-3">
       <li>{{{data.copyright}}}</li>
-      <li>{{#data.address}}{{street}}, {{city}}, {{state}} {{zip}}{{/data.address}}</li>
+      <li id="address">{{#data.address}}{{street}}, {{city}}, {{state}} {{zip}}{{/data.address}}</li>
       <li><a href="tel:{{data.phone}}">{{data.phone}}</a></li>
     </ul>
   </footer>
