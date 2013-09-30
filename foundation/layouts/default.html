@@ -9,28 +9,31 @@
 
 {{>nav}}
 
-<div class="row sheet">
+<div class="row main">
 
   {{>header}}
 
-  <div class="large-12 columns">
+  {{{content}}}
 
-    <section>
-
-    {{{content}}}
-
-    {{>footer}}
-
-    </section>
-  </div>
 </div>
-
+<script type="text/javascript"> 
+  var $buoop = {vs:{i:8,f:15,o:11,s:4,n:9}} 
+  $buoop.ol = window.onload; 
+  window.onload=function(){ 
+   try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+   var e = document.createElement("script"); 
+   e.setAttribute("type", "text/javascript"); 
+   e.setAttribute("src", "http://browser-update.org/update.js"); 
+   document.body.appendChild(e); 
+  } 
+</script> 
 <script>
   document.write('<script src=' +
   ('__proto__' in {} ? '/assets/javascripts/vendor/zepto' : '/assets/javascripts/vendor/jquery') +
   '.js><\/script>');
 </script>
 {{# javascripts.load }}
+  vendor/holder.js
   vendor/custom.modernizr.js
   foundation/foundation.js
   foundation/foundation.alerts.js

@@ -4,18 +4,9 @@ html, body {
   height: 100%;
 }
 
-body {
-  @include background(linear-gradient(top, rgba(201, 201, 201, 0.12) 0,
-              rgba(201, 201, 201, 0.12) 445px) no-repeat,
-              image-url('/assets/media/page.png'),
-              linear-gradient(top, #D6D6D6 0, #D6D6D6 445px) no-repeat,
-              #FAFAFA);
-  background-size: 100% 445px, auto, 100% 445px, auto !important;
-  background-image: -ms-linear-gradient(rgba(201, 201, 201, 0.12) 0,
-                    rgba(201, 201, 201, 0.12) 445px),
-                    url('/assets/media/page.png'),
-                    -ms-linear-gradient(rgb(215, 214, 214) 0,
-                    rgb(214, 214, 214) 445px), none;
+.top-bar {
+  @include background(linear-gradient(top, rgba(51, 51, 51, 0.8) 0, rgba(5, 5, 5, 0.8) 100%) no-repeat);
+  background: -ms-linear-gradient(top, rgba(51, 51, 51, 0.8) 0, rgba(5, 5, 5, 0.8) 100%) no-repeat;
 }
 
 .sheet {
@@ -26,12 +17,43 @@ body {
   border-top: none;
 }
 
-.header {
-  min-height: 400px;
-  background-image: url('/assets/media/object1649987792.png'),
-                    url('/assets/media/object0.png'),
-                    url('/assets/media/header.jpg');
-  background-position: 27px 11px,398px 0, 0 0;
-  background-repeat: no-repeat;
+body {
+  background: #FFFFFF url('/assets/media/page.jpeg') top center fixed;
+}
+
+header {
+  height: 250px;
+  position: relative;
+  h1, h2 {
+    line-height: 1;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+  }
+  h1 {
+    color: #51811D;
+    font-size: 58px;
+    text-shadow: 2.1px 2.1px 1px rgba(23, 23, 23, 0.3);
+    position: absolute;
+    top: 71px;
+    left: 249px;
+  }
+  h2 {
+    color: #82D02F;
+    font-size: 35px;
+    text-shadow: 0.7px 0.7px 1px rgba(0, 0, 0, 0.2),
+                  1.4px 1.4px 1px rgba(0, 0, 0, 0.2),
+                  2.1px 2.1px 2px rgba(0, 0, 0, 0.2),
+                  2.8px 2.8px 1px rgba(0, 0, 0, 0.2),
+                  3.5px 3.5px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 123px;
+    left: 248px;
+  }
 }
 

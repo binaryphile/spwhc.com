@@ -2,7 +2,7 @@
 title: Home
 no-title: true
 layout: page
-description: Lorum ipsum
+description: Lorem ipsum
 ---
-<img src="http://placekitten.com/260/160" class="hide-for-small" />
+<img data-src="holder.js/260x160" class="show-for-medium-up" />
 
